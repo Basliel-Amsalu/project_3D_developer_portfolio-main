@@ -23,7 +23,10 @@ import {
   tripguide,
   threejs,
   Natours,
+  Proshop,
   devconnect,
+  oneEight,
+  icog,
 } from "../assets";
 
 export const navLinks = [
@@ -39,12 +42,8 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
-  },
-  {
-    title: "Flutter Developer",
-    icon: mobile,
   },
   {
     title: "Backend Developer",
@@ -95,55 +94,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Junior Web Developer",
+    company_name: "1888e.c",
+    icon: oneEight,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2023 - Mar 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React.js| Remix.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "AGI Intern",
+    company_name: "iCog-Labs",
+    icon: icog,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Mar 2024 - Jun 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Algorithm Development: Successfully developed and optimized several machine learning algorithms, improving their performance and accuracy for various cognitive tasks.",
+      "Integration and Testing: Played a key role in integrating machine learning modules into the Hyperion Metta architecture, ensuring seamless functionality and robustness.",
+      "Research Contribution: Contributed to research papers and presentations, sharing insights and findings with the broader AGI research community.",
+      "Collaboration and Teamwork: Worked closely with a multidisciplinary team, enhancing collaborative efforts and driving project success through effective communication and problem-solving skills.",
     ],
   },
 ];
@@ -176,6 +149,31 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Proshop",
+    description:
+      "ProShop is a comprehensive e-commerce mobile application designed to offer a seamless shopping experience for a wide range of products. Built with modern web technologies, ProShop ensures high performance, scalability, and an intuitive user interface.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux/tool-kit",
+        color: "violet-gradient",
+      },
+    ],
+    image: Proshop,
+    source_code_link: "https://github.com/Basliel-Amsalu/Proshop-ecommerce",
+  },
   {
     name: "Natours nature tour",
     description:

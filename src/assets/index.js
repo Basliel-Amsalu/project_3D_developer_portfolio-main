@@ -25,9 +25,12 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import oneEight from "./company/18.png";
+import icog from "./company/icog.jfif";
 
 import Natours from "./Natours.png";
 import devconnect from "./devconnect.png";
+import Proshop from "./Proshop.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -58,7 +61,10 @@ export {
   starbucks,
   tesla,
   Natours,
+  Proshop,
   jobit,
   tripguide,
   devconnect,
+  oneEight,
+  icog,
 };
